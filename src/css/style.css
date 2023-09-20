@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {font-family: sans-serif;}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagem/imag1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.boxlogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 460px;
+    
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    border: 2px solid rgba(255, 255,255,.2);
+
+}
+
+.boxlogin.title{
+      color: #fff;
+      font-size: 24px;
+      text-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.boxlogin form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 32px;
+
+}
+
+.boxlogin input{
+     outline: none;
+     background-color: transparent;
+     color: #ccc;
+     width: 100%;
+     height: 48px;
+     border: 2px solid rgba(255,255, 255,.2 );
+     padding-left: 26;
+     font-size: 14px;
+     margin-bottom: 16px;
+     border-radius: 10px;
+
+
+}
+
+.boxlogin input:focus{
+    border: 2px solid rgba(255,255, 255,.3 );
+
+}
+
+.boxlogin input::placeholder{
+     color: #ffffffff;
+     padding: 5px;
+     
+     
+
+}
+
+.boxlogin button{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    background-color: #1e90ff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+
+}.boxlogin button :hover{background-color:#141cae ;}
+
+.boxlogin .divider{
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    opacity: 2;
+}
+
+.boxlogin *{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.boxlogin *:hover{
+    text-decoration: underline;
+}
+    
+
+
+ 
